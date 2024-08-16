@@ -9,7 +9,7 @@ const Navbar = () => {
       transition={{ duration: 1.2 }}
       className="w-[100%] top-0 h-[12vh]"
     >
-      <div className="flex items-center justify-between  mx-auto h-[100%]">
+      <div className=" lg:mx-40 flex items-center justify-between  mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[30px] text-white font-bold">
           L<span className="text-red-600">p</span>A
         </h1>

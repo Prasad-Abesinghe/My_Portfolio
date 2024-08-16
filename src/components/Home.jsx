@@ -40,7 +40,7 @@ const varients = (duration) => ({
 
 const Home = () => {
   return (
-    <div className=" border-b border-neutral-900 pb-4 ">
+    <div className=" lg:mx-40 border-b border-neutral-900 pb-4 ">
       <Particle />
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
