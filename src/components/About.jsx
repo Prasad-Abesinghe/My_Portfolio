@@ -4,7 +4,7 @@ import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4 ">
+    <div id="about" className="border-b border-neutral-900 pb-4 ">
       <motion.h1
         whileInView={{ opacity: 1, x: 0, scale: 1 }}
         initial={{ opacity: 0, x: -100, scale: 0 }}

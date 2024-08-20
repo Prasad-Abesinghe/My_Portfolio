@@ -1,7 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+
+
   return (
     <motion.nav
       whileInView={{ opacity: 1, x: 0, scale: 1 }}
@@ -14,11 +17,11 @@ const Navbar = () => {
           L<span className="text-red-600">p</span>A
         </h1>
         <div className="nav-link">HOME</div>
-        <div className="nav-link">SERVICES</div>
-        <div className="nav-link">ABOUT</div>
-        <div className="nav-link">PROJECT</div>
-        <div className="nav-link">BLOG</div>
-        <div className="nav-link">CONTACT</div>
+        <div className="nav-link"><a href="#services">SERVICES</a></div>
+        <div className="nav-link"><a href="#about">ABOUT</a></div>
+        <div className="nav-link"><a href="#project">PROJECT</a></div>
+        <div className="nav-link"><a href="#qualifications">QUALIFICATIONS</a></div>
+        <div className="nav-link"><a href="#contact">CONTACT</a></div>
       </div>
     </motion.nav>
   );
